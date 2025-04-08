@@ -1,0 +1,30 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    background:  url(background.jpg) no-repeat;
+    object-fit: fill;
+    background-size: 100%;
+}
+.nav-panel{
+    width: 100%;
+    height: auto;
+    /* padding: 20px; */
+   display: flex;
+    background-color: rgba(214, 189, 189, 0.534);
+    justify-content: space-between;
+    
+}
+.nav{
+  display: inline-block;
+}
+.nav-logo a{
+    margin-top: 20px;
+color:aliceblue;
+font-weight: 700;
+display:flex;
+}
+.nav-panel button{
+    border-radius: 30px;
+}
