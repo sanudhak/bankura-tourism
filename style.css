@@ -28,7 +28,7 @@ header{
     background: rgba(255, 255, 255, 0.54);
     /* filter: drop-shadow(10px); */
     display: flex;
-    justify-content: space-between;
+    justify-content: spacebetween;
     align-items: center;
     z-index: 100;
 }
