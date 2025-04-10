@@ -1,24 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3");
-*{ 
+
+* {
     margin: 0%;
     padding: 0;
     box-sizing: border-box;
     border: none;
     outline: none;
-    font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     text-decoration: none;
 }
-body{
+
+body {
     background: url(background.jpg);
     background-size: cover;
-}body{
+}
+
+body {
     width: 100%;
     height: 100vh;
     background-color: black;
     overflow-x: hidden;
     color: white;
 }
-header{
+
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -32,60 +37,70 @@ header{
     align-items: center;
     z-index: 100;
 }
+
 .nav-logo a:hover {
     color: rgb(59, 204, 204);
     transition: color 0.3s ease;
 }
-.nav-panel{
+
+.nav-panel {
     display: flex;
     width: auto;
-    
+
 }
-.nav{
+
+.nav {
     display: flex;
     gap: 10px;
     position: fixed;
     right: 10px;
 }
-.nav-logo a{
+
+.nav-logo a {
     font-weight: 600;
     font-size: 45px;
 }
 
-.nav a{
+.nav a {
     font-size: 20px;
-    padding-top:15px;
+    padding-top: 15px;
 }
-.nav button{
-    border:1px solid  rgba(255, 255, 255, 0.3);
+
+.nav button {
+    border: 1px solid rgba(255, 255, 255, 0.3);
     background-color: rgb(59, 204, 204);
     border-radius: 30px;
     padding: 10px 20px;
     transition: ease-out 0.3s;
 }
-.nav button:hover{
+
+.nav button:hover {
     background-color: rgb(59, 204, 204);
     color: white;
     cursor: pointer;
     font-size: large;
 }
-.nav button:active{
+
+.nav button:active {
     background-color: rgb(59, 204, 204);
     color: white;
     cursor: pointer;
 
 }
-.nav button:focus{
+
+.nav button:focus {
     background-color: rgb(59, 204, 204);
     color: white;
     cursor: pointer;
 }
-.nav button:focus-visible{
+
+.nav button:focus-visible {
     background-color: rgb(59, 204, 204);
     color: white;
     cursor: pointer;
 }
-.banner{
+
+.banner {
     width: 100%;
     height: 100vh;
     display: inline-flex;
@@ -95,45 +110,52 @@ header{
     text-align: center;
     color: white;
 }
-.banner h1{
+
+.banner h1 {
     font-size: 60px;
     font-weight: 600;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.banner h1 span{
+
+.banner h1 span {
     color: rgb(59, 204, 204);
     font-size: 80px;
     font-weight: 800;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.banner h1 span:hover{
+
+.banner h1 span:hover {
     color: rgb(59, 204, 204);
     font-size: 80px;
     font-weight: 800;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
-.banner p{
+
+.banner p {
     font-size: 30px;
     font-weight: 400;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.banner p:hover{
+
+.banner p:hover {
     color: rgb(59, 204, 204);
     font-size: 30px;
     font-weight: 400;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
-.banner button{
-    border:1px solid  rgba(255, 255, 255, 0.3);
+
+.banner button {
+    border: 1px solid rgba(255, 255, 255, 0.3);
     background-color: rgb(59, 204, 204);
     border-radius: 30px;
     padding: 10px 20px;
     transition: ease-out 0.3s;
     margin-top: 1.5%;
 }
-.banner button:hover{
+/* edit */
+.banner button:hover {
     background-color: rgb(59, 204, 204);
     color: white;
     cursor: pointer;
