@@ -163,12 +163,15 @@ header {
     font-size: large;
 }
 
+<<<<<<< HEAD
 
 button:hover {
     border: 2px solid red;
     color: white;
 }
 
+=======
+>>>>>>> Somnath
 .content {
     margin-top: 120px;
     margin-bottom: 250px;
