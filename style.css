@@ -162,13 +162,6 @@ header {
     font-size: large;
 }
     
-<<<<<<< HEAD
-}
-button:hover{
-    border: 2px solid red;
-    color: white;
-}
-=======
     .content {
         margin-top: 120px;
         margin-bottom: 250px;
@@ -204,4 +197,3 @@ button:hover{
         color: white;
         text-decoration: underline;
     }
->>>>>>> e0f90fc5648d2100a672758250f2cedd32d35569
